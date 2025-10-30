@@ -1,0 +1,23 @@
+{
+  "experience": [
+    {
+      "role": "Full Stack Developer",
+      "company": "Future Interns",
+      "period": "2025 - Present",
+      "description": "Led a team to develop and maintain a large-scale web application, improving performance by 20%."
+    },
+    {
+      "role": "Junior Web Developer",
+      "company": "Innovate LLC",
+      "period": "2019 - 2021",
+      "description": "Contributed to building client websites and internal tools using React and Node.js."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Bayero University Kano",
+      "period": "2025 - 2028"
+    }
+  ]
+}

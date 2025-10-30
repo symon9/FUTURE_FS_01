@@ -1,0 +1,18 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-featured e-commerce site with product search, cart, and checkout functionalities using Stripe.",
+    "techStack": ["Next.js", "TypeScript", "Stripe", "MongoDB"],
+    "image": "/project-image.png",
+    "githubLink": "https://github.com",
+    "liveLink": "https://example.com"
+  },
+  {
+    "title": "Task Management App",
+    "description": "A responsive Kanban-style task board with drag-and-drop functionality and real-time collaboration.",
+    "techStack": ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
+    "image": "/project-image.png",
+    "githubLink": "https://github.com",
+    "liveLink": "https://example.com"
+  }
+]
