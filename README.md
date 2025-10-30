@@ -41,7 +41,6 @@ A modern, animated, and production-ready personal portfolio website built with N
     ```
     
     Now, fill in the `.env.local` file with your credentials:
-    - `MONGODB_URI`: (Optional) Your MongoDB connection string if you choose to use a database.
     - `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_SECURE`: Your email SMTP server details (e.g., for Gmail, use `smtp.gmail.com`, `465`, `true`).
     - `EMAIL_USER`: The email address you will send contact form messages from.
     - `EMAIL_PASS`: The **app-specific password** for your email account (do not use your regular password).
