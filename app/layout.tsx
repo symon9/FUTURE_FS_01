@@ -7,8 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Simon Emmanuel | Software Engineer",
-  description: "Personal professional portfolio website for a skilled Software Engineer, built with Next.js, React, and Tailwind CSS.",
-  keywords: "Portfolio, Next.js, React, Tailwind CSS, Software Engineer, Web Developer",
+  description:
+    "Personal professional portfolio website for a skilled Software Engineer, built with Next.js, React, and Tailwind CSS.",
+  keywords:
+    "Portfolio, Next.js, React, Node.js, Tailwind CSS, Software Engineer, Web Developer",
 };
 
 export default function RootLayout({
