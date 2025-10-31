@@ -65,7 +65,7 @@
   font-family: "Arial", sans-serif;
   /* Keep the overlay from blocking three.js interactions by default,
      but enable pointer-events on interactive descendants (links/buttons) */
-  pointer-events: none;
+  pointer-events: auto;
   animation: fadeIn 1.5s ease-out 0.5s forwards;
 }
 /* Allow interactive elements inside the hero overlay to receive pointer events */
