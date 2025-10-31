@@ -12,7 +12,7 @@
     "description": "Game Hub is a dynamic gaming platform where users can explore a wide selection of games, filter by genre, search for favorites, and view detailed game information. It also features light and dark mode for a customized experience. With a sleek and fully responsive design, it offers an engaging experience for gamers on all devices. Dive into the world of gaming.",
     "techStack": ["React", "Typescript", "Chakra UI", "RAWG API"],
     "image": "/gameHub.png",
-    "githubLink": "https://github.com",
+    "githubLink": "https://github.com/symon9/game-hub",
     "liveLink": "https://game-hub-puce-rho.vercel.app"
   },
   {
@@ -20,7 +20,15 @@
     "description": "The Wild Oasis is a hotel management application designed to simplify booking and management processes. It features a dashboard for viewing bookings, sales charts, check-ins, and occupancy rates, along with cabin management, user settings, and detailed reports. The platform supports dark mode for better user experience and provides secure authentication to ensure data safety. ",
     "techStack": ["React", "Styled component", "Rechart", "Supabase"],
     "image": "/dashboard-light.png",
-    "githubLink": "https://github.com",
+    "githubLink": "https://github.com/symon9",
     "liveLink": "https://the-wild-oasis-ht.vercel.app"
+  },
+  {
+    "title": "Explore Wild Oasis: Gateway to Nature",
+    "description": "Explore Wild Oasis is a travel and adventure platform that allows users to view cabins, sign in with Google, make reservations, edit guest profile info, and update reservation details for a seamless booking experience. Discover unique stays and plan your next getaway. ",
+    "techStack": ["Next.js", "Tailwind CSS", "Supabase"],
+    "image": "/exploreWildOasis.png",
+    "githubLink": "https://github.com/symon9/the-wild-oasis-website",
+    "liveLink": "https://explore-wild-oasis.vercel.app"
   }
 ]

@@ -23,7 +23,7 @@ const Resume = () => {
             <div key={index} className="mb-8 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-white/20 rounded-full -left-3 ring-8 ring-zinc-900"></span>
               <h4 className="font-bold text-lg">{item.role}</h4>
-              <p className="font-semibold text-md text-gray-400">
+              <p className="font-semibold text-md text-gray-300">
                 {item.company} | {item.period}
               </p>
               <p className="text-gray-300 mt-2">{item.description}</p>
@@ -40,7 +40,7 @@ const Resume = () => {
             <div key={index} className="mb-8 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-white/20 rounded-full -left-3 ring-8 ring-zinc-900"></span>
               <h4 className="font-bold text-lg">{item.degree}</h4>
-              <p className="font-semibold text-md text-gray-400">
+              <p className="font-semibold text-md text-gray-300">
                 {item.institution} | {item.period}
               </p>
             </div>

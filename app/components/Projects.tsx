@@ -3,11 +3,6 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 
 const Projects = () => {
-  // In a real app, you would fetch this data from your API
-  // const [projects, setProjects] = useState([]);
-  // useEffect(() => {
-  //   fetch('/api/projects').then(res => res.json()).then(data => setProjects(data));
-  // }, []);
 
   return (
     <section id="projects" className="w-full max-w-5xl py-24">
@@ -16,7 +11,8 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group rounded-xl border border-white/10 bg-black/20 p-6 shadow-lg backdrop-blur-lg transition-all duration-300 hover:border-white/20 hover:scale-[1.02]"
+            className="fade-slide-up group rounded-xl border border-white/10 bg-black/20 p-6 shadow-lg backdrop-blur-lg transition-all duration-300 hover:border-white/20 hover:scale-[1.02] hover:shadow-2xl"
+            style={{ animationDelay: `${index * 80}ms` }}
           >
             <div className="relative w-full h-48 mb-4 overflow-hidden rounded-lg">
               <Image
@@ -47,6 +43,7 @@ const Projects = () => {
               <a
                 href={project.githubLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <FaGithub size={24} />
@@ -54,6 +51,7 @@ const Projects = () => {
               <a
                 href={project.liveLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 <FaExternalLinkAlt size={22} />
