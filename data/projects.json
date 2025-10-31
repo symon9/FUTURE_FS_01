@@ -1,18 +1,26 @@
 [
   {
-    "title": "E-Commerce Platform",
-    "description": "A full-featured e-commerce site with product search, cart, and checkout functionalities using Stripe.",
-    "techStack": ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    "image": "/project-image.png",
-    "githubLink": "https://github.com",
-    "liveLink": "https://example.com"
+    "title": "DrawFusion: Drawing App",
+    "description": "DrawFusion is a drawing application that lets users create an account, log in, edit their profile, and draw effortlessly using powerful tools. With a sleek landing page and a fully responsive design, it works seamlessly on both mobile and large screens. Users can sketch, design, and download their artwork, making it perfect for artists, and designers.",
+    "techStack": ["React", "Tailwind CSS", "Konva.js", "Supabase"],
+    "image": "/draw-fusion.png",
+    "githubLink": "https://github.com/symon9",
+    "liveLink": "https://drawfusion.vercel.app"
   },
   {
-    "title": "Task Management App",
-    "description": "A responsive Kanban-style task board with drag-and-drop functionality and real-time collaboration.",
-    "techStack": ["React", "Firebase", "Tailwind CSS", "Framer Motion"],
-    "image": "/project-image.png",
+    "title": "Game Hub: Discover & Enjoy the Games",
+    "description": "Game Hub is a dynamic gaming platform where users can explore a wide selection of games, filter by genre, search for favorites, and view detailed game information. It also features light and dark mode for a customized experience. With a sleek and fully responsive design, it offers an engaging experience for gamers on all devices. Dive into the world of gaming.",
+    "techStack": ["React", "Typescript", "Chakra UI", "RAWG API"],
+    "image": "/gameHub.png",
     "githubLink": "https://github.com",
-    "liveLink": "https://example.com"
+    "liveLink": "https://game-hub-puce-rho.vercel.app"
+  },
+  {
+    "title": "The Wild Oasis: Modern Hotel Management",
+    "description": "The Wild Oasis is a hotel management application designed to simplify booking and management processes. It features a dashboard for viewing bookings, sales charts, check-ins, and occupancy rates, along with cabin management, user settings, and detailed reports. The platform supports dark mode for better user experience and provides secure authentication to ensure data safety. ",
+    "techStack": ["React", "Styled component", "Rechart", "Supabase"],
+    "image": "/dashboard-light.png",
+    "githubLink": "https://github.com",
+    "liveLink": "https://the-wild-oasis-ht.vercel.app"
   }
 ]

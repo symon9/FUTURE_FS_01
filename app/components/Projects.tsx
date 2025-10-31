@@ -27,8 +27,12 @@ const Projects = () => {
                 className="transition-transform duration-500 group-hover:scale-110"
               />
             </div>
-            <h3 className="text-xl font-bold">{project.title}</h3>
-            <p className="text-gray-400 mt-2 mb-4">{project.description}</p>
+            <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+            <div className="mb-4">
+              <p className="bg-white/30 text-gray-900 dark:text-white/90 px-4 py-3 rounded-lg shadow-sm border border-white/20 transition-all duration-300 group-hover:bg-linear-to-r group-hover:from-blue-400/30 group-hover:to-purple-400/30">
+                {project.description}
+              </p>
+            </div>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.techStack.map((tech) => (
                 <span

@@ -8,7 +8,7 @@ const skills = [
   "Node.js",
   "MongoDB",
   "Tailwind CSS",
-  "GraphQL",
+  "RadixUI",
 ];
 
 const About = () => {
