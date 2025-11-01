@@ -295,7 +295,7 @@ const Hero = () => {
                   animate={{ y: 0, opacity: 1 }}
                   exit={{ y: -8, opacity: 0 }}
                   transition={{ duration: 0.45 }}
-                  className="inline-block subtitle text-pink-600"
+                  className="inline-block subtitle text-shadow-lg"
                 >
                   {titles[titleIndex]}
                 </motion.span>
